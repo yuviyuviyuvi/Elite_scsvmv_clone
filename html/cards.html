@@ -1,0 +1,383 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="../css/cards.css">
+</head>
+<body>
+    <div class="container">
+        <div class="card">
+            <img src="../Images/k.jpg" alt="K Corner">
+            <div class="card-content">
+                <h3>K Corner</h3>
+                <a href="#" class="view-details" onclick="openKCornerModal()">View Details</a>
+            </div>
+        </div>
+        <div class="card">
+            <img src="../Images/software-debugging.jpg" alt="Software Debugging">
+            <div class="card-content">
+                <h3>Software Debugging</h3>
+                <a href="#" class="view-details" onclick="openSoftwareDebuggingModal()">View Details</a>
+            </div>
+        </div>
+        <div class="card">
+            <img src="../Images/paper-presentation.jpg" alt="Paper Presentation">
+            <div class="card-content">
+                <h3>Paper Presentation</h3>
+                <a href="#" class="view-details" onclick="openPaperPresentationModal()">View Details</a>
+            </div>
+        </div>
+        <div class="card">
+            <img src="../Images/poster-presentation.jpg" alt="Poster Presentation">
+            <div class="card-content">
+                <h3>Poster Presentation</h3>
+                <a href="#" class="view-details" onclick="openPosterPresentationModal()">View Details</a>
+            </div>
+        </div>
+    </div>
+
+    <div class="container">
+        <div class="card">
+            <img src="../Images/group_discusstion.jpg" alt="Group Discussions">
+            <div class="card-content">
+                <h3>Group Discussions</h3>
+                <a href="#" class="view-details" onclick="openGroupDiscussionModal()">View Details</a>
+            </div>
+        </div>
+        <div class="card">
+            <img src="../Images/Mock_interview.webp" alt="Mock Interview">
+            <div class="card-content">
+                <h3>Mock Interview</h3>
+                <a href="#" class="view-details" onclick="openMockInterviewModal()">View Details</a>
+            </div>
+        </div>
+        <div class="card">
+            <img src="../Images/Quiz.webp" alt="Quiz">
+            <div class="card-content">
+                <h3>Quiz</h3>
+                <a href="#" class="view-details" onclick="openQuizModal()">View Details</a>
+            </div>
+        </div>
+        <div class="card">
+            <img src="../Images/short-film.webp" alt="Short Film">
+            <div class="card-content">
+                <h3>Short Film</h3>
+                <a href="#" class="view-details" onclick="openShortFilmModal()">View Details</a>
+            </div>
+        </div>
+    </div>
+
+    <!-- K Corner Modal -->
+    <div id="kCornerModal" class="modal">
+        <div class="modal-content">
+            <span class="close-btn" onclick="closeKCornerModal()">×</span>
+            <h2>K Corner Event Details</h2>
+            <h3>Event Rules & Regulations</h3>
+            <p>Mail for submission as per event rules: <a
+                    href="mailto:elite2k24@kanchiuniv.ac.in">elite2k24@kanchiuniv.ac.in</a></p>
+            <ol>
+                <li>Team can have maximum of 2 participants.</li>
+                <li>Certificates will be provided for all participants.</li>
+                <li>First and second prizes are awarded based on judgment.</li>
+                <li>Topic should be technical and educational oriented.</li>
+                <li>Maximum 20 slides are required.</li>
+                <li>Explanation time is minimum 10 minutes.</li>
+                <li>Preliminaries will be conducted.</li>
+                <li>Practical sessions are also allowed.</li>
+                <li>Participants should bring their own Laptop.</li>
+                <li>Explanation must be in English.</li>
+            </ol>
+            <div class="contact-info">
+                <h3>Contact Information</h3>
+                <p>Event Coordinator: Pavatharani K</p>
+                <p>Phone: <a href="tel:9524433829">9524433829</a></p>
+                <p>Staff-in-charge: Dr. S. Babu</p>
+                <p>Phone: <a href="tel:9444275366">9444275366</a></p>
+            </div>
+        </div>
+    </div>
+
+    <!-- Software Debugging Modal -->
+    <div id="softwareDebuggingModal" class="modal">
+        <div class="modal-content">
+            <span class="close-btn" onclick="closeSoftwareDebuggingModal()">×</span>
+            <h2>Software Debugging Event Details</h2>
+            <h3>Event Rules & Regulations</h3>
+            <p>Mail for submission as per event rules: <a
+                    href="mailto:elite2k24@kanchiuniv.ac.in">elite2k24@kanchiuniv.ac.in</a></p>
+            <ol>
+                <li>One participant per team.</li>
+                <li>Certificates will be provided for all participants.</li>
+                <li>First and second prizes are awarded based on judgment.</li>
+                <li>Students have to maintain a decent dress code.</li>
+            </ol>
+
+            <h3>Rounds</h3>
+            <h4>First Round:</h4>
+            <ol>
+                <li>This round consists of 20 questions</li>
+                <li>Time duration: 20 minutes</li>
+                <li>Maximum numbers of outputs should be given, and the respective logics must be answered</li>
+                <li>The best performances are promoted for GRAND FINALE</li>
+            </ol>
+
+            <h4>Final Round:</h4>
+            <ol>
+                <li>5 programs are given to individuals on the spot</li>
+                <li>Time duration: 45 minutes</li>
+                <li>The participants who debugged the maximum number of programs will be considered as best performer
+                </li>
+                <li>Best performances are rewarded</li>
+            </ol>
+
+            <div class="contact-info">
+                <h3>Contact Information</h3>
+                <p>Event Coordinator: Sruthi S</p>
+                <p>Phone: <a href="tel:7338999323">7338999323</a></p>
+                <p>Staff-in-charge: Mr. M. KrishnaMoorthy</p>
+                <p>Phone: <a href="tel:9443308729">9443308729</a></p>
+            </div>
+        </div>
+    </div>
+
+    <!-- Paper Presentation Modal -->
+    <div id="paperPresentationModal" class="modal">
+        <div class="modal-content">
+            <span class="close-btn" onclick="closePaperPresentationModal()">×</span>
+            <h2>Paper Presentation Event Details</h2>
+            <h3>Event Rules & Regulations</h3>
+            <p>Mail for submission as per event rules: <a
+                    href="mailto:elite2k24@kanchiuniv.ac.in">elite2k24@kanchiuniv.ac.in</a></p>
+            <ol>
+                <li>Team can have maximum of 2 participants.</li>
+                <li>First and Second prizes are awarded based on judgment.</li>
+                <li>Students have to maintain a decent Dress code.</li>
+                <li>Work should be original and in the specified format.</li>
+                <li>Registered candidates are directed to mail the complete paper in IEEE format on or before 3th
+                    October 2024 to (elite mail id ) with <paper title> in the Subject field of the mail.</li>
+                <li>Full paper must be submitted in IEEE format only and should not exceed 6 pages.</li>
+                <li>Shortlisted candidates will be informed by E-Mail ID or by Mobile by 6th October 2024 and they would
+                    have to send reply confirming their participation on or before 07th October 2024.</li>
+                <li>The paper which is already published in anywhere will not be qualified.</li>
+                <li>The selected candidates should submit a soft copy and hard copy of the paper (2 copies) with
+                    abstract at the time of presentation.</li>
+                <li>(in A4 sheets not exceeding ten pages - including references, tables and figures).</li>
+                <li>Decision of the Judges and the event heads shall be treated as final and binding on all and cannot
+                    be contested.</li>
+                <li>Directly copying from the internet is strongly discouraged and will not be entertained.</li>
+            </ol>
+
+            <h3>Presentation Rules</h3>
+            <ol>
+                <li>The paper submitted will have to be presented during the event.</li>
+                <li>The participants have to present their papers in Power Point (ppt/pptx) format only.</li>
+                <li>The Teams will get 7 minutes to present their paper.</li>
+                <li>It will be followed by a question and answer session for the next 3 Minutes.</li>
+                <li>The participants will have to present their papers in MS-Power Point (ppt) format only.</li>
+                <li>The organizers reserve the right to change/update the rules of the contest at any point of time and
+                    will do their best to inform to participants of the same.</li>
+                <li>However, it is ultimately the responsibility of the teams to keep themselves updated.</li>
+            </ol>
+
+            <div class="contact-info">
+                <h3>Contact Information</h3>
+                <p>Event Coordinator: D. Dinesh</p>
+                <p>Phone: <a href="tel:9677308181">9677308181</a></p>
+                <p>Staff-in-charge: V. Ramesh</p>
+                <p>Phone: <a href="tel:9952494214">9952494214</a></p>
+            </div>
+        </div>
+    </div>
+
+    <!-- Poster Presentation Modal -->
+    <div id="posterPresentationModal" class="modal">
+        <div class="modal-content">
+            <span class="close-btn" onclick="closePosterPresentationModal()">×</span>
+            <h2>Group discussionn Details</h2>
+            <h3>Event Rules & Regulations</h3>
+            <p>Mail for submission as per event rules: <a
+                    href="mailto:elite2k24@kanchiuniv.ac.in">elite2k24@kanchiuniv.ac.in</a></p>
+            <ol>
+                <li>A team can have maximum of 2 participants.</li>
+                <li>Certificates will be provided for all the participants.</li>
+                <li>First and second prizes will be awarded based on the judgment.</li>
+                <li>Poster size must be 40*60.</li>
+                <li>Make theme on it and collect information, pictures and make your own art clips.</li>
+                <li>Bring out your creativity by arranging your theme on a chart.</li>
+                <li>Poster explanation time is of 5 minutes.</li>
+                <li>Every poster should be presented technically.</li>
+            </ol>
+
+            <div class="contact-info">
+                <h3>Contact Information</h3>
+                <p>Event Coordinator: T. Datchna Moorthy</p>
+                <p>Phone: <a href="tel:6380279916">6380279916</a></p>
+                <p>Staff-in-charge: Dr. K. Srinvanasan</p>
+                <p>Phone: <a href="tel:9486119260">9486119260</a></p>
+            </div>
+        </div>
+    </div>
+
+    <!-- Group Discussion Modal -->
+    <div id="groupDiscussionModal" class="modal">
+        <div class="modal-content">
+            <span class="close-btn" onclick="closeGroupDiscussionModal()">×</span>
+            <h2>Group Discussion Event Details</h2>
+            <h3>Event Rules & Regulations</h3>
+            <p>Mail for submission as per event rules: <a
+                    href="mailto:elite2k24@kanchiuniv.ac.in">elite2k24@kanchiuniv.ac.in</a></p>
+            <ol>
+                <li>Only registered students are allowed to participate in Group Discussion.</li>
+                <li>Participants can range from 7 to 12 in a group based on the number of the students registered.</li>
+                <li>Average duration of the GD is 30 minutes.</li>
+                <li>Sometimes, the panelist or judges can extend the discussion for more than 30 minutes.</li>
+                <li>They can also end the discussion in between.</li>
+                <li>Process of GD may repeat to filter the best speakers.</li>
+                <li>Result will be announced by the Judge and it is the final decision.</li>
+            </ol>
+
+            <h3>Process</h3>
+            <ol>
+                <li>The process of a Group Discussion starts with the announcement of the topic.</li>
+                <li>The given topic could be technical, factual, or case study.</li>
+                <li>Before beginning with the discussion, the preparation time of 2 to 3 minutes is given.</li>
+                <li>The time can also extend in case of a long case statement.</li>
+                <li>Any participant in the group can initiate the discussion.</li>
+                <li>After the lead participant, anyone in the group can continue the discussion.</li>
+                <li>Similarly, everyone gets the chance to speak.</li>
+                <li>One after another, participants in the group expresses their views on the given topic.</li>
+                <li>It ends when the panelist stops the discussion or may ask one or more than one participant to
+                    summarize the GD.</li>
+                <li>Whenever you are asked for the summary, remember to cover the discussed points.</li>
+                <li>The summary cannot include the words that were not part of the discussion.</li>
+                <li>The participants that were quite among the discussion are generally asked to summarize it, which is
+                    a good opportunity to present their views.</li>
+                <li>But, it does not mean that everyone should be quite.</li>
+                <li>The summary should include the essential discussed points and the conclusion of the discussion.</li>
+                <li>The final scores are calculated.</li>
+                <li>Based on the performance of each participant, the judge will give the final result and it is the
+                    final decision.</li>
+            </ol>
+
+            <div class="contact-info">
+                <h3>Contact Information</h3>
+                <p>Event Coordinator: Jeeva</p>
+                <p>Phone: <a href="tel:9080185815">9080185815</a></p>
+                <p>Staff-in-charge: Dr. R. Anatharayanan</p>
+                <p>Phone: <a href="tel:8220767277">8220767277</a></p>
+            </div>
+        </div>
+    </div>
+    <!-- Mock Interview Modal -->
+    <div id="mockInterviewModal" class="modal">
+        <div class="modal-content">
+            <span class="close-btn" onclick="closeMockInterviewModal()">×</span>
+            <h2>Mock Interview Event Details</h2>
+            <h3>Event Rules & Regulations</h3>
+            <p>Mail for submission as per event rules: <a
+                    href="mailto:elite2k24@kanchiuniv.ac.in">elite2k24@kanchiuniv.ac.in</a></p>
+            <ol>
+                <li>The date and timings of the mock is given by the experts according to their feasibility and the
+                    interviews are conducted according to those timings.</li>
+                <li>Mock interviews are conducted for the registered students only and it is offline mode.</li>
+                <li>The order of students selected for panel is based upon CGPA or the opinion of the experts or the
+                    coordinators.</li>
+                <li>Students have to bring their resume and other relevant documents else not permit to attend the mock
+                    interview.</li>
+                <li>Strictly follow the dress code.</li>
+                <li>If the students are unable to attend the mock interview due to any reason, they have to intimate
+                    earliest, no more chance will be provide further.</li>
+                <li>Result will be announced by the Judge and it is the final decision.</li>
+            </ol>
+
+            <div class="contact-info">
+                <h3>Contact Information</h3>
+                <p>Event Coordinator: M. Bharathi priyan</p>
+                <p>Phone: <a href="tel:6385301623">6385301623</a></p>
+                <p>Staff-in-charge: Dr. M.kannan</p>
+                <p>Phone: <a href="tel:9443690287">9443690287</a></p>
+            </div>
+        </div>
+    </div>
+
+    <!-- Quiz Modal -->
+    <div id="quizModal" class="modal">
+        <div class="modal-content">
+            <span class="close-btn" onclick="closeQuizModal()">×</span>
+            <h2>Quiz Event Details</h2>
+            <h3>Event Rules & Regulations</h3>
+            <p>Mail for submission as per event rules: <a
+                    href="mailto:elite2k24@kanchiuniv.ac.in">elite2k24@kanchiuniv.ac.in</a></p>
+            <ol>
+                <li>Number of Nodes per Network.</li>
+                <li>All participating Nodes will be certified, with participation certificate.</li>
+                <li>Only two successful Networks are selected by the Administrator.</li>
+                <li>Any Wi-Fi can register on the particular network ON-SPOT for free.</li>
+                <li>The nodes can be registered in advance by visiting our website.</li>
+                <li>Number of rounds: 3.</li>
+                <li>The network which has proper connectivity with higher speed will be given priority to update for
+                    further rounds.</li>
+            </ol>
+
+            <h3>Rounds</h3>
+            <h4>Round 1: Entertainment Based Connection</h4>
+            <ol>
+                <li>Game name both indoor and outdoor</li>
+                <li>Mathematical operations</li>
+                <li>Letter Shuffle</li>
+            </ol>
+
+            <h4>Round 2: Technical</h4>
+            <ol>
+                <li>Picture merging only computer parts</li>
+                <li>Logo</li>
+                <li>Tags</li>
+                <li>Famous personality</li>
+            </ol>
+
+            <h4>Round 3: Think and ping</h4>
+            <ol>
+                <li>Proverb</li>
+                <li>Find the difference</li>
+                <li>Inventions and abbreviation</li>
+                <li>Allocation of time will be based on rounds</li>
+                <li>If any question is left out, it is passed to the next node, and marks will be given based on it</li>
+                <li>The rules will be subjected to change</li>
+            </ol>
+
+            <div class="contact-info">
+                <h3>Contact Information</h3>
+                <p>Event Coordinator: R. Sowmiya</p>
+                <p>Phone: <a href="tel:9626371781">9626371781</a></p>
+                <p>Alternative Phone: <a href="tel:7550282730">7550282730</a></p>
+                <p>Staff-in-charge: T. Nirmal Raj</p>
+                <p>Phone: <a href="tel:9498028711">9498028711</a></p>
+            </div>
+        </div>
+    </div>
+
+    <!-- Short Film Modal -->
+    <div id="shortFilmModal" class="modal">
+        <div class="modal-content">
+            <span class="close-btn" onclick="closeShortFilmModal()">×</span>
+            <h2>Short Film Event Details</h2>
+            <h3>Event Rules & Regulations</h3>
+            <p>Mail for submission as per event rules: <a
+                    href="mailto:elite2k24@kanchiuniv.ac.in">elite2k24@kanchiuniv.ac.in</a></p>
+            <ol>
+                <li>The time duration allocated for short film will be 10 minutes.</li>
+                <li>The story or concept of this film should be good and keep non-violence.</li>
+                <li>Judge's decision will be treated as final.</li>
+                <li>Judgement will be based on the clarity of acting, thoughts, humor, expressions and screenplay.</li>
+                <li>Team will be disqualified on vulgarity or any obscene in the performance.</li>
+                <li>Language preferences: English or Tamil.</li>
+            </ol>
+
+
+        </div>
+    </div>
+    <script src="../js/cards.js"></script>
+</body>
+</html>
